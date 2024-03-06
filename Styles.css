@@ -1,0 +1,172 @@
+* {
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: white;
+    color:rgba(147, 73, 49, 1.00);
+    min-height:100vh;
+    display: flex;
+    flex-direction:column;
+    gap: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+section {
+    display:flex;
+    align-items:center;
+    justify-content:right;
+    padding:14px;
+    gap: 14px;
+}
+
+section img {
+    max-width: 40px;
+    border-radius: 100%;
+}
+
+.Blacklink {
+    color: black;
+}
+
+a {
+    text-decoration: unset;
+    font-size: 0.8em;
+}
+a:hover {
+    text-decoration:underline
+}
+
+.headertext {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.searchbox {
+         display:flex;
+         width: 100%;
+         max-width: 900px;
+         margin:0,auto;
+         gap: 14px;
+         border: 1px solid black;
+         padding: 14px; 
+         border-radius: 24px;
+
+}
+input {
+    background: transparent;
+    outline: none;
+    border: unset;
+    color: black;
+    flex:1;
+    }
+
+.searchbox:hover{
+border-color: black;
+}
+.iconButtonContainer{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.iconbutton{
+    background-color:transparent ;
+    border: none;
+    color: black;
+    font-size: 1.2em;
+
+}
+
+main {
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0px;
+
+}
+
+
+main> button {
+    border-radius: 4px;
+    display: block;
+    height: 112px;;
+    width: 112px;
+    align-content: center;
+    border: none;
+} 
+
+.tabft{
+    border-color: black;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+} 
+
+.tabgt{
+    border-color: black;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.tabgtt{
+    border-color: black;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+} 
+
+.tabip{
+    border-color: black;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+} 
+.tabgg{
+    border-color: black;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+} 
+.tabas{
+    color:rgb(147, 73, 49);
+    border-radius: 4px;
+    display: block;
+    border:none;
+    font-size: 13px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgb(58, 11, 0);
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: right;
+}
+.ccl{
+    display:flex;
+    flex-direction: row;
+    color:rgb(147, 73, 49);
+
+}
+ 
+@media min-width{
+    min{width: 540px; } 
+}  
